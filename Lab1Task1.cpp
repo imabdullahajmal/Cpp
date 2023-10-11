@@ -2,6 +2,7 @@
 //SAP : 47729
 //TASK : 1
 
+
 #include <iostream>
 using namespace std;
 int main(){
