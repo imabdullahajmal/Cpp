@@ -13,13 +13,13 @@ int main(){
 
 	
 	
-	
 	while(1){
 		
 		cout<<"Enter A\tto Enter Data"<<endl
-			<<"Enter B\tto View Marks"<<endl
-			<<"Enter C\tto View Grade"<<endl
-			<<"Enter D\tto Exit"<<endl;
+			//Added Spaces here
+			<<"Enter B\t to View Marks"<<endl
+			<<"Enter C\t to View Grade"<<endl
+			<<"Enter D\t to Exit"<<endl;
 		
 		cout<<">>";cin>>choice;
 		
@@ -32,7 +32,7 @@ int main(){
 					cout<<endl;
 				}
 			}
-			cout<<endl;
+			cout<<endl<<endl;
 		}
 		
 		
@@ -47,7 +47,7 @@ int main(){
 				totalM += arr[checkId][i];
 			}
 			cout<<"Total/t"<<totalM<<endl;
-			cout<<endl;
+			cout<<endl<<endl;
 		}
 		
 		else if(choice == 'C'){
@@ -67,7 +67,7 @@ int main(){
 			}else{
 				cout<<"Need to work Harder! You recieved F grade."<<endl;
 			}
-			cout<<endl;
+			cout<<endl<<endl;
 		}
 		
 		else if(choice =='D'){
