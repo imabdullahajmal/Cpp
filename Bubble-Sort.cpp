@@ -1,3 +1,5 @@
+//Name : Abdullah Ajmal
+
 #include <iostream>
 using namespace std;
 
@@ -61,38 +63,4 @@ int main(){
 	for(int i=0;i<19;i+=1){
 		cout<<students[i].stSap<<"\t"<<students[i].stName<<endl;
 	}
-	
-		//Insertion
-//	int ind = 0;
-//	int newSap = 0;
-//	string newName = "";
-//	
-//	cout<<"Enter the index where you want to Insert :";
-//	cin>>ind;
-//	cout<<"Enter the SAP of new Student :";
-//	cin>>newSap;
-//	cout<<"Enter the Name of new Student :";
-//	cout<<endl<<newName;
-//	
-//	for(int i = 0;i<20;i+=1){
-//		if(i==ind){
-//			students[i].stSap = newSap;
-//			students[i].stName = newName;
-//		}
-//		
-//		else if(i<ind){
-//			students[i].stName = temp[i].stName;
-//			students[i].stSap = temp[i].stSap;
-//		}
-//		
-//		else if(i>ind){
-//			students[i].stName = temp[i-1].stName;
-//			students[i+1].stSap = temp[i-1].stSap;
-//		}
-//	}
-//	
-//	for(int i=0;i<19+1;i+=1){
-//		cout<<students[i].stName<<endl;
-//	}
-	
 }
